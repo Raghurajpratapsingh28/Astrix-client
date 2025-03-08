@@ -15,7 +15,7 @@ export default function PaymentOverlay({ amount, onClose, handleSubmit }: Paymen
 
   // const [platformAccount] = useState('cyph37');
   const [errorMessage, setErrorMessage] = useState('');
-  const [transactionId, setTransactionId] = useState('');
+  const [transactionId] = useState('');
   const [isLoading, setIsLoading] = useState(false);
 
   // const isValidAmount = (value:string) => /^\d+\.\d{3}$/.test(value);
